@@ -3,6 +3,7 @@
 #include "LSD_RunnerGameMode.h"
 #include "LSD_RunnerCharacter.h"
 #include "UObject/ConstructorHelpers.h"
+#include "BaseCube.h"
 
 ALSD_RunnerGameMode::ALSD_RunnerGameMode()
 {
@@ -12,4 +13,6 @@ ALSD_RunnerGameMode::ALSD_RunnerGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+
+	
 }
