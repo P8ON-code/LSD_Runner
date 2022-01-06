@@ -33,7 +33,7 @@ void ABaseCube::Appear()
 	this->SetActorEnableCollision(true);
 }
 
-void ABaseCube::Disapper()
+void ABaseCube::Disappear()
 {
 	meshka->SetVisibility(false);
 	this->SetActorEnableCollision(false);

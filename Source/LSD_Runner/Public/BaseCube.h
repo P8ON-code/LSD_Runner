@@ -25,7 +25,7 @@ public:
 
 	virtual void Appear();
 
-	virtual void Disapper();
+	virtual void Disappear();
 
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* meshka;

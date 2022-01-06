@@ -30,7 +30,7 @@ private:
 	void ShowAllCubes();
 
 	UPROPERTY(VisibleAnywhere)
-	TArray<ABaseCube*>ArrayOfCubes;
+	TArray<AActor*>ArrayOfCubes;
 };
 
 
